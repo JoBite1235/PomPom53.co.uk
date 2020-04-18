@@ -1,12 +1,13 @@
  body{
-     background-image: url("bg.png");
-     background-size: cover;
+     	background-image: url("bg.png");
+     	background-size: cover;
 
 }
 form{
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-	 padding: 150px;
+   	margin-left: auto;
+    	margin-right: auto;
+    	width: 30%;
+    	padding: 150px;
+	background-color: #FFF;
 }
 
