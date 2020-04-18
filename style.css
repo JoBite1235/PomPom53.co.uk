@@ -6,8 +6,14 @@
 form{
    	margin-left: auto;
     	margin-right: auto;
-    	width: 30%;
+    	width: 15%;
     	padding: 150px;
 	background-color: #FFF;
+}
+#value1 {
+padding-bottom:20px;
+}
+#value2 {
+padding-bottom:20px;
 }
 
