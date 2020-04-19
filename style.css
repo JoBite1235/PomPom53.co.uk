@@ -8,9 +8,9 @@
    	margin-left: auto;
     	margin-right: auto;
     	width: 15%;
+	height: 20vh;
 	padding: 100px;
 	background-color: #FFF;
-	align-content: center;
 	border:3px solid #000;
 }
 #value1 {
@@ -21,13 +21,13 @@ border:1px solid #ccc;
 margin-bottom:20px;
 border:1px solid #ccc;
 }
-#value1:hover {
+#value1:focus {
 margin-bottom:20px;
-border:2px solid #000;
+border:1px solid #000;
 }
-#value2:hover {
+#value2:focus {
 margin-bottom:20px;
-border:2px solid #000;
+border:1px solid #000;
 }
 #operator{
 	margin-bottom: 20px;
