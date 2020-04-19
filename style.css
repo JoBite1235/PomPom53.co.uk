@@ -34,17 +34,14 @@ border:2px solid #000;
 }
 .button{
 	margin-bottom: 20px;
-	background-color: #00FFFF;
 	border:1px solid #ccc;
 	color:#ccc;
 }
 .button:hover{
 	margin-bottom: 20px;
-	background-color: #00FFFF;
 	border:2px solid #000;
 	color: #000;
 }
-#result{
-	position: absolute;
-	
+form{
+	position:absolute;
 }
