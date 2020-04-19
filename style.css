@@ -1,5 +1,7 @@
+
  body{
      	background-color:#00FF00;
+     	font-color:#ccc;
 
 }
 #calc{
@@ -8,24 +10,41 @@
     	width: 15%;
 	padding: 100px;
 	background-color: #FFF;
-	content-align: center;
+	align-content: center;
+	border:3px solid #000;
 }
 #value1 {
 margin-bottom:20px;
+border:1px solid #ccc;
 }
 #value2 {
 margin-bottom:20px;
+border:1px solid #ccc;
+}
+#value1:hover {
+margin-bottom:20px;
+border:2px solid #000;
+}
+#value2:hover {
+margin-bottom:20px;
+border:2px solid #000;
 }
 #operator{
 	margin-bottom: 20px;
 }
 .button{
 	margin-bottom: 20px;
+	background-color: #00FFFF;
+	border:1px solid #ccc;
+	color:#ccc;
+}
+.button:hover{
+	margin-bottom: 20px;
+	background-color: #00FFFF;
+	border:2px solid #000;
+	color: #000;
 }
 #result{
 	position: absolute;
 	
 }
-
-
-
