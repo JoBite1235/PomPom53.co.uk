@@ -1,32 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Calculator</title>
-</head>
-<body>
-	<section id="calc">
-	<form>
-		Value 1: <input type="text" id="value1">
-		<br>
-		Value 2: <input type="text" id="value2">
-		<br>
-		Operator:
-		<select id="operator">
-			<option value="add">Add</option>
-			<option value="min">Minus</option>
-			<option value="div">Divide</option>
-			<option value="mul">Multiply</option>
-		</select>
-		<br>
-		<button type="button" class="button" onclick="calc()">Calculate</button>
-		<br>
-		<br>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<form method="POST" action="submit.php">
+			<input type="text" name="name" placeholder="Message">
+			<input type="submit" name="submit">
+		</form>
 
-	<div id="result"></div>
-	</form>
-	</section>
-
-</body>
-<script src="main.js"></script>
+	</body>
 </html>
