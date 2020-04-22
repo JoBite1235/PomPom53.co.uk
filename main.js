@@ -16,8 +16,11 @@ function draw(){
   if (y++ > canvas.height){
     y--;
   }
+  else{
   y++;
   x++;
+    
+  }
     
   
   
