@@ -4,10 +4,15 @@ const ctx = canvas.getContext("2d");
 let x = 0;
 let y = 0;
 
-ctx.fillStyle = "#000";
+function drawBall(){
+  ctx.fillStyle = "#0000FF";
+  ctx.fillRect(x, y, 100, 100);
+}
 
 function draw(){
-  ctx.fillRect(x, y, 100, 100);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  drawBall()
   x ++;
   y ++;
   
