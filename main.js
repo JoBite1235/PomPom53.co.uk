@@ -13,8 +13,12 @@ function draw(){
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   
   drawBall()
-  x ++;
-  y ++;
+  if (y++ > canvas.height){
+    y--;
+  }
+  y++;
+  x++;
+    
   
   
 }
