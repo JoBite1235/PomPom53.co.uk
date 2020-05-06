@@ -1,3 +1,13 @@
-.button{
-    border:1px solid black;
+body,
+html {
+    min-height:100%;    
+    
+}
+
+
+body{
+    background-image:url(bg.jpg);
+    background-repeat:no-repeat;
+    bsckground-size:cover;
+    
 }
