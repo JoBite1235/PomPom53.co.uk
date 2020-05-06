@@ -1,6 +1,8 @@
 function login(){
 
-input = parseInt(document.querySelector("#pass").value)
+input = parseInt(document.getElementById('pass').value);
+
+console.log(input);
 
 
 if (input == 2904){
